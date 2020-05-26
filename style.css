@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #E6EFF6;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 73, 133, 0.075);
+}
+
+.card:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 73, 133, 0.336);
+    transition-duration: 0.5s;
+}
+
+img {
+    max-width: 30%;
+}
+
+h5 {
+    color: #555977;
+    height: 60px;
+}
+
+p {
+    color: #7C838A;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #6F7984;
+    border-radius: 30px;
+    font-size: 0.8em;
+}
+
+.btn-primary:hover {
+    background-color: #4aaaf4;
+    color: #ffffff;
+    box-shadow: 0 0.7rem 1rem rgba(74, 170, 244, 0.3);
+    transition-duration: 0.2s;
+}
