@@ -44,3 +44,9 @@ p {
     box-shadow: 0 0.7rem 1rem rgba(74, 170, 244, 0.3);
     transition-duration: 0.2s;
 }
+
+@media (max-width: 768px) {
+    .navside {
+        display: none;
+    }
+ }
